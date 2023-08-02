@@ -94,15 +94,15 @@ def run_ml_app():
         st.success("yes nberhasil")
         
         st.write(pred_probability_score)
-    if cluster_number == 2:
+    elif cluster_number == 2:
         st.success("Udin apa kabar")
         
         st.write(pred_probability_score)
-    if cluster_number == 3:
+    elif cluster_number == 3:
         st.success("bolehlah")
         
         st.write(pred_probability_score)
-    if cluster_number == 4:
+    elif cluster_number == 4:
         st.success("mau apa anda")
         
         st.write(pred_probability_score)

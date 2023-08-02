@@ -88,7 +88,7 @@ def run_ml_app():
         pred_probability_score = {'Promoted':cluster_number,'Level':"VIP"}
         st.write(pred_probability_score)
     elif cluster_number == 2:
-        st.success("Beli Mobil gratis Liburan ke Jepang")
+        st.success("Bundling produk A dan produk B dengan harga diskon ")
         pred_probability_score = {'Promoted':cluster_number,'Level':"Premium"}
         st.write(pred_probability_score)
     elif cluster_number == 3:
